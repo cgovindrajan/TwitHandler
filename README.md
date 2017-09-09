@@ -9,9 +9,13 @@ In our project, it will be used to keep track of the frequency/occurrence of eac
 Time Complexity:
  
 Operation    | Actual | Amortized  |
+
 Insert       |  O(1)  |  O(1)      |
+
 Remove Max   |  O(n)  |  O(log n)  |
+
 Meld         |  O(1)  |  O(1)      |
+
 Increase Key |  O(n)  |  O(1)      |
 
 2. Hash Table: It is used to keep the track of each hash tags. Key of hash table will be hash tag and value will be pointers to node having that hash tag in Max Fibonacci Heap.
